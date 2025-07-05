@@ -1,7 +1,7 @@
 function startCelebration() {
     let name = document.getElementById("name").value.trim();
     let dob = document.getElementById("dob").value;
-    if (name !== "Nguyễn Châu Thảo Nguyên" || dob !== "2010-11-07") {
+    if (name !== "Nguyễn Châu Thảo Nguyên" || dob !== "2090-11-07") {
         alert("Sai thông tin! Vui lòng nhập lại.");
         return;
     }
