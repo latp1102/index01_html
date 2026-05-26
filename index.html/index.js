@@ -1,7 +1,7 @@
 function startCelebration() {
     let name = document.getElementById("name").value.trim();
     let dob = document.getElementById("dob").value;
-    if (name !== "Nguyễn Châu Thảo Nguyên" || dob !== "2090-11-07") {
+    if (name !== "Cao Thị Phương" || dob !== "2007-07-05") {
         alert("Sai thông tin! Vui lòng nhập lại.");
         return;
     }
@@ -67,7 +67,7 @@ function startCelebration() {
     }
     document.getElementById("inputContainer").classList.add("hidden");
     document.getElementById("card").style.display = "block";
-    document.getElementById("greetingMessage").innerText = `Chúc em mạnh khỏe, đỗ nguyện vọng 1, luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
+    document.getElementById("greetingMessage").innerText = `Chúc em ngày càng xinh gái, luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
     setInterval(createFloatingHearts, 1000); 
 }
 
@@ -80,7 +80,7 @@ function startCelebration() {
 }
     document.getElementById("inputContainer").classList.add("hidden");
     document.getElementById("card").style.display = "block";
-    document.getElementById("greetingMessage").innerText = `Chúc em mạnh khỏe, đỗ nguyện vọng 1, luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
+    document.getElementById("greetingMessage").innerText = `Chúc em ngày càng xinh gái, luôn vui vẻ, hạnh phúc và tràn đầy năng lượng! 💖`;
 
     let audio = document.getElementById("bgMusic");
     audio.style.display = "block"; 
